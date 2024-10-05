@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    margin: 10px 0;
+    background-color: rgb(218, 215, 211);
+    padding: 20px;
+    margin-bottom: 10px;
+
+    
+}
+
+header h1 {
+    padding-right: 60px;
+}
+
+
+nav{
+    display: flex;
+    padding-top: 10px;
+
+}
+
+nav ul li {
+    display: inline;
+    padding: 20px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: large;
+    letter-spacing: 2px;
+    color: rgb(187, 80, 80);
+    letter-spacing:3px;
+}
+
+a:hover{
+    color: white;
+    background-color: #87312b;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.search{
+    padding-left: 100px;
+}
+
+#search-bar {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 25px 0 0 25px;
+    font-size: 16px;
+}
+
+#search-button {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #87312b;
+}
+section{
+    background-image: url(/img2/view-white-rose-background.jpg);
+    background-size: cover;
+    margin: 0px;
+    padding: 0;
+    height: 80vh;
+}
+
+.contener{
+   text-align: center;
+   padding-top: 30vh;
+   color: rgb(86, 30, 8);
+}
+span{
+    color: rgb(214, 34, 34);
+}
+h1{
+    text-transform: capitalize;
+    font-size:35px;
+}
+.contener a {
+    text-decoration: none;
+    color: rgb(239, 233, 233);
+}
+
+.contener p {
+    font-size: 18px;
+}
+
+.btn1{
+    font-size: 20px;
+    background: rgb(62, 31, 31);
+    padding: 5px 10px;
+   display: inline-block;
+   border-radius: 8px;
+
+}
+
+.btn2{
+    font-size: 20px;
+    background:  rgb(214, 34, 34);;
+    padding: 5px 30px;
+   display: inline-block;
+    border-radius: 8px;
+}
+.btn1:hover{
+    color: white
+    background-color:  rgb(214, 34, 34);
+    padding: 5px 10px;
+    
+}
+    
+.btn2:hover{
+    color: white;
+    background-color: red;
+    padding: 5px 30px;
+    
+
+    
+}
