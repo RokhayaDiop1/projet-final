@@ -3,6 +3,11 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body{
+    height: 100%;
+    scroll-behavior : smooth;
+   
+}
 header{
     display: flex;
     position: relative;
@@ -12,6 +17,9 @@ header{
     background-color: rgb(218, 215, 211);
     padding: 20px;
     margin-bottom: 10px;
+    
+   
+   
 
     
 }
@@ -24,6 +32,7 @@ header h1 {
 nav{
     display: flex;
     padding-top: 10px;
+   
 
 }
 
@@ -72,7 +81,7 @@ a:hover{
 #search-button:hover {
     background-color: #87312b;
 }
-section{
+.sect1{
     background-image: url(/img2/background.jpg);
     background-size: cover;
     margin: 0px;
@@ -131,4 +140,175 @@ h1{
     
 
     
+}
+
+
+.sect2{
+    
+    margin: 200px;
+   
+    
+}
+
+.produit{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    padding-left: 70px;
+    padding: 10px;
+    text-align: center;
+    
+}
+.sect2 h1{
+    text-align: center;
+    margin: 50px;
+}
+
+.sect2 .produit h1{
+    text-align: center;
+}
+
+.produit a{
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 7px;
+    
+   
+    
+}
+
+
+
+
+.produit img{
+    padding: 20px;
+    border: 10px ;
+    box-shadow: 20px 15px 35px rgb(152, 150, 150);
+}
+
+.Bloc1 img:hover{
+    content: url(/img2/beige\ 3.png);
+    height: 382px;
+    width:375px;
+}
+
+.Bloc2 img:hover{
+    content: url(/img2/gris\ 2.png);
+}
+
+.Bloc3 img:hover{
+    content: url(/img2/jaune\ 1.png);
+}
+
+
+.Bloc4 img:hover{
+    content: url(/img2/beige\ noir.png);
+}
+.Bloc5 img:hover{
+    content: url(/img2/vert\ rose.png);
+}
+
+.Bloc6 img:hover{
+    content: url(/img2/band4.png);
+}
+
+.Bloc7 img:hover{
+    content: url(/img2/band5.png);
+}
+
+.Bloc8 img:hover{
+    content: url(/img2/band6.png);
+}
+
+
+.sect3{
+    
+    justify-content: space-between;
+    display: flex;
+    padding: 80px;
+    
+    font-size: large;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    
+}
+
+.sect3 .image{
+    margin-bottom: 100px;
+    width: 100%;
+    margin-top: -150px;
+    
+    
+}
+
+
+footer{
+    height: 20vh;
+    background-color: #87312b;
+}
+
+.formulaire{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img2/perle.jpg);
+    background-size: cover;
+}
+
+.contact-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #ff6f61;
+}
+
+.contact-form button {
+    padding: 20px;
+    background-color: #b25c1a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #ff4d40;
 }
